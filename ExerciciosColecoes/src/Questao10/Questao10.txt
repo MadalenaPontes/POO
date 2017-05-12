@@ -1,0 +1,12 @@
+10. Quando utilizamos TreeSet, qual método somos obrigados a implementar para que
+nosso programa não lance uma exceção? Explique como se dá essa implementação.
+
+Quando utilizamos TreeSet, somos obrigados a implementar o método compareTo.
+Esse método retorna 3 números: -1, 0 ou 1.
+Vamos supor que temos um objeto "X" e queremos comparar com o objeto "Y".
+Usamos esse método assim: X.compareTo(Y)
+
+Caso "X" seja maior que "Y", o método retorna 1.
+Caso "X" seja menor que "Y", o método retorna -1.
+Caso "X" seja igual à "Y", o método retorna 0.
+

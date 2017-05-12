@@ -1,0 +1,6 @@
+1. O que é uma Lista?
+
+ Uma lista é uma coleção de elementos arrumados numa ordem linear, isto é,
+onde cada elemento tem um antecessor (exceto o primeiro)e um sucessor (exceto o último).
+Uma lista permite elementos duplicados. Os elementos de uma lista podem ser acessados pela sua posição,
+isto é, seu índice.

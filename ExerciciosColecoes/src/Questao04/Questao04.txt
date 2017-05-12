@@ -1,0 +1,5 @@
+4 - O que é uma Fila?
+
+São listas lineares que adotam a política 
+FIFO (First In First Out - o primeiro que entra 
+é o primeiro que sai) para a manipulação de elementos.

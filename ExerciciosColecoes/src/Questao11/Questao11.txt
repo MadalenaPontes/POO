@@ -1,0 +1,8 @@
+11. Quais as diferenças de HashTable, LinkedHashMap, HashMap e TreeMap?
+
+HashMap é a implementação base e mais usada.Não garante sincronização em relação a threads.
+HashTable é a versão sincronizada do HashMap. Ele é útil quando várias threads estão acessando
+o mapa ao mesmo tempo, não permite chaves ou valores null.O LinkedHashMap mantém a ordem de inserção.
+Todas essas três utilizam o hash para posicionar o elemento na estrutura com mais velocidade. 
+Já o TreeMap usa o método compareTo, da interface Comparator, para saber onde guardar o par chave-valor.
+Logo, como TreeMap não usa hash, tende ser mais lento do que as implementações que usam hash.

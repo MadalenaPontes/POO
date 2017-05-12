@@ -1,0 +1,7 @@
+2. O que é um Conjunto?
+
+ Um Conjunto é uma coleção que não permite elementos duplicados.
+Outra característica fundamental dele é o fato de que a ordem em que os
+elementos são armazenados pode não ser a ordem na qual eles foram inseridos 
+no conjunto.A interface não define como deve ser este comportamento.Tal ordem
+varia de implementação para implementação. 

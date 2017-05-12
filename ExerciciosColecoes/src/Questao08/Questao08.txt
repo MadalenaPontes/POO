@@ -1,0 +1,10 @@
+8. Quais as diferenças de HashSet, LinkedHashSet e TreeSet?
+
+Um LinkedHashSet é uma versão ordenada do HashSet que mantém uma Lista duplamente
+vinculada em todos os elementos. Use esta classe em vez de HashSet quando você se 
+preocupa com a ordem de iteração. Quando você itera através de um HashSet a ordem é
+imprevisível, enquanto um LinkedHashSet permite iterar através dos elementos na ordem em que foram inseridos.
+TreeSet não usa o hash. A ideia de árvores é que existe uma certa hierarquia,
+e portanto uma certa ordem em sua estrutura. Para manter essa ordem, o elemento que será 
+guardado na TreeSet deve implementar a interface Comparable.
+

@@ -1,0 +1,15 @@
+6. Como funcionam os seguintes métodos (remove(Object), indexOf(Object) e
+contains(Object)) nas Listas de maneira geral? Ele requer a implementação de qual
+método?
+
+- Método: remove(Object)
+ Em ArrayList/Vector, é preciso varrer a lista para encontar o objeto a ser removido.
+ Deslocar os elementos da lista uma casa à esquerda pode ser custoso(dependendo da posição
+ e do tamanho da lista). Em LinkedList, também é preciso varrer a lista para encontrar o objeto
+ a ser removido; deslocar os elementos da lista uma casa à esquerda é instantâneo(basta atualizar os ponteiros).
+
+- Métodos: indexOf(Object) e contains(Object)
+Tanto em ArrayList/Vector quanto em LinkedList, é preciso varrer a lista para encontrar o objeto,
+o desempenho dependerá do índice  onde estiver esse objeto.
+
+Esses três métodos requerem a implementação do método equals.

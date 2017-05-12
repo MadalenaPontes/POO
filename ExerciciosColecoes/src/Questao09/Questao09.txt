@@ -1,0 +1,9 @@
+9. Me explique com suas palavras como funciona as estruturas que usam hash. O que é um
+código hash? (se for mais fácil de explicar pode usar o exemplo da portaria e caixa de
+correspondências)
+
+Imaginemos um prédio onde existem vários apartamentos, que são únicos. Neste prédio, temos a caixa de correspondências.
+O código hash ajuda o porteiro a achar mais rápido em qual gaveta ele deve colocar cada correspondência. No entanto, o número mais
+adequado para representar esse hash seria o número do apartamento. E um bom número hash é aquele que espalha melhor na caixa de 
+correspondência. Hash é como se fosse um endereço para facilitar a JVM encontrar mais rápido o local de armazenar ou buscar algum 
+objeto do conjunto.
