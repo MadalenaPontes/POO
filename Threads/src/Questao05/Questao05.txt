@@ -1,0 +1,4 @@
+5. Vários objetos da classe A (vide abaixo) são utilizadas num programa multi-thread.
+O que ocorre quando outras threads utilizam o código abaixo?
+
+a. Erro de compilação

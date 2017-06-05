@@ -1,0 +1,1 @@
+Uma thread tem que esperar o término da execução para outra thread começar, devido a sincronização do método synchronized.
